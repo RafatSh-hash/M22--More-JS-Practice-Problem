@@ -181,3 +181,20 @@
 //     var PropertyValue = shoppingCart[PropertyName];
 //     console.log(PropertyName, PropertyValue);
 // }
+
+
+//Dhora Jak Curret er prothom 100 unit er Price 5Taka kore, 100 par hole 200 porjonto unit price porbe 6 taka kore,
+//  200 er beshi hole unit er price 200 er por ja ache tar price 8 taka kore.Dhora jak sumit er bill asche 240Unit er,
+//   Current bill take koto pay korte hobe??
+
+
+let UnitPriceForFirst100 = 5;
+let UnitPriceForSecond100 = 6;
+let UnitPriceForThird100 = 8;
+
+function CurrentBill(unit){
+    console.log(unit);
+
+}
+
+CurrentBill(240);

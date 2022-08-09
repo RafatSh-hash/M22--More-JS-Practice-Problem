@@ -329,3 +329,74 @@
 
 // let MyLArgestNumber = LargestNumber(numbers);
 // console.log(MyLArgestNumber);
+
+
+//------------------More Problems 03
+
+//Dhora Jak Curret er prothom 100 unit er Price 5Taka kore, 100 par hole 200 porjonto unit price porbe 6 taka kore,
+//  200 er beshi hole unit er price 200 er por ja ache tar price 8 taka kore.Dhora jak sumit er bill asche 240Unit er,
+//   Current bill take koto pay korte hobe??
+
+
+// let UnitPriceForFirst100 = 5;
+// let UnitPriceForSecond100 = 6;
+// let UnitPriceForThird100 = 8;
+
+// function CurrentBill(unit){
+//     if(unit < 100){
+//         let Bill = UnitPriceForFirst100 * unit;
+//         return Bill;
+//     }
+//     else if(unit > 100 && unit < 200){
+//         let First100Bill = UnitPriceForFirst100 * 100;
+//         let remains = unit- 100;
+//         let BillforRemain = remains * UnitPriceForSecond100;
+//         let TotalBill = First100Bill + BillforRemain;
+//         return TotalBill;
+//     }
+//     else if(unit > 200){
+//         let First100Bill = UnitPriceForFirst100 * 100;
+//         let remains = unit - 200;
+//         let BillForRemains = remains * UnitPriceForThird100;
+//         let TotalBill = BillForRemains + First100Bill; 
+//         return TotalBill;
+
+//     }
+
+// }
+
+// let BillForSumit = CurrentBill(540);
+// console.log('Sumit er Bill Ashbe :' ,BillForSumit, 'tk');
+
+
+//------------------More Problem 3.1
+
+
+//Dhora Jak Alif woord furniture banabe, proti Cubic feet wood er dam 114tk.
+//chair banate khoroch hoy 5 cf
+//table banate khoroch hoy 8 cf
+// Khat banate khoroch hoy 12 cf
+//Alif jodi 2ta table, 4 ta chair , 2 ta khat banate chay
+//tar total khorcha koto taka hobe?
+
+
+// let perChairWood = 5;
+// let perTableWood = 8;
+// let perBedWood = 12;
+// let perCFWoodprice = 114;
+
+// let NumOfChair = 4;
+// let NumOfTable = 2;
+// let NumOfBed = 2;
+
+// function furniturePrice(NumOfChair, NumOfTable, NumOfBed){
+//     const PriceForChair = perChairWood * perCFWoodprice * NumOfChair;
+//     const PriceForTable = perTableWood * perCFWoodprice * NumOfTable;
+//     const PriceForBed = perBedWood * perCFWoodprice * NumOfBed;
+
+//     let TotalPrice = PriceForChair + PriceForTable + PriceForBed;
+//     return TotalPrice;
+// }
+
+// let TotalFurniturePrice = furniturePrice(NumOfChair, NumOfTable, NumOfBed);
+// console.log(TotalFurniturePrice);
